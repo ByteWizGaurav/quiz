@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <h1>Quiz Game</h1>
+    <main>
+        <div id="quiz">
+          <div class="questionBox">
+              <div class="question">
+                <p>Question <number>1</number></p>
+                <h2><question>Who are you?</question></h2>
+            </div>
+            <div class="choices">
+                <div class="choice"><input type="radio" name="question" value="1" id="q1a" /><label for="q1a">Superhero</label></div>
+                <div class="choice"><input type="radio" name="question" value="2" id="q1b" /><label for="q1b">Alien</label></div>
+                <div class="choice"><input type="radio" name="question" value="3" id="q1c" /><label for="q1c">Ninja</label></div>
+                <div class="choice"><input type="radio" name="question" value="4" id="q1d" /><label for="q1d">Programmer</label></div>
+            </div>
+          </div>
+          <div class="btns">
+              <button type="submit" id="submit" class="button">Submit Answer</button>
+              <button type="button" id="next" class="button hidden">Next Question</button>
+            </div>
+        </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
